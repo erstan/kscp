@@ -6,5 +6,11 @@ Text and audio processing of the Kashmiri language corpus.
 ```
 make setup
 ```
-Then run the `main.py` for the extraction of the descriptive data from the dataset. The generated data will be stored in the `./results` folder. 
+* Compile `get_f0`
+```
+cd get_f0 && make && cd ..
+```
+Link to the original repo : <https://github.com/gareth-ferneyhough/get_f0>
+
+Finally run the `main.py` for the extraction of the descriptive data from the dataset. The generated data will be stored in the `./results` folder. 
 

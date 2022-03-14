@@ -78,6 +78,6 @@ class aud_proc:
         [x_f, y_f] = self.spectrum(wavedata)
         return [x_f, np.angle(y_f)]
     def pitchinfo(self, filename, destination_filepath):
-        os.system("f0_test "+self.datapath+"/"+filename+" > "+destination_filepath)
+        os.system("./get_f0/f0_test "+self.datapath+"/"+filename+" > "+destination_filepath)
         return csvtodict(destination_filepath)
     

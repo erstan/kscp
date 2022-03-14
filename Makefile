@@ -17,7 +17,9 @@ setup:
 	-mkdir -p results/pitchinfo
 	-mkdir -p results/unique_chars
 	-mkdir -p results/unique_words
-
+	-mkdir -p dataset
+	-mkdir -p dataset/audio
+	-mkdir -p dataset/txt
 clean: clean_plain_transcripts clean_plots clean_unique clean_pitchinfo
 clean_plain_transcripts:
 	-rm -f plain_transcripts/*
