@@ -37,6 +37,6 @@ clean_plots:
 	-rm -f results/plots/pitch_transitions/*
 clean_unique: 
 	-rm -f results/unique_chars/*
-	-rm -f results/nique_words/*
+	-rm -f results/unique_words/*
 clean_pitchinfo:
 	-rm -f results/pitchinfo/*
