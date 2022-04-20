@@ -1,5 +1,5 @@
 # kscp (Kashmiri Speech Corpus Processing)
-Text and audio processing of the Kashmiri language corpus. 
+Text and audio processing of the Kashmiri language corpus uploaded at <https://openslr.org/122>. 
 ### Usage
 * Place the audio (.wav) files in the `./dataset/audio` directory and the transcription files in the `./dataset/txt` directory. 
 * Set up the directory structure 
